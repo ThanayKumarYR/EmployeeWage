@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace EmployeeWage
 {
-    internal class Program
+    class Program
     {
         static void Main(string[] args)
         {
@@ -18,6 +18,11 @@ namespace EmployeeWage
             Console.WriteLine(dMart.ToStringing());
             reliance.computeEmpWage();
             Console.WriteLine(reliance.ToStringing());
+
+            EmpwageBuilderArray empwageBuilderArray = new EmpwageBuilderArray();
+            empwageBuilderArray.addCompanyEmpWage("DMart",20,2,10);
+            empwageBuilderArray.addCompanyEmpWage("Reliance", 10,4,20);
+            empwageBuilderArray.computeEmpWage();
         }
     }
 }
