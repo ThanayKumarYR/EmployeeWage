@@ -46,7 +46,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AddPartTimeEmployeeWage.cs" />
     <Compile Include="CalculatingEmployeeWage.cs" />
+    <Compile Include="CalEmpWageUseSwitchCase.cs" />
     <Compile Include="EmployeePresence.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
