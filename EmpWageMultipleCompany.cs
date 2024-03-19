@@ -15,7 +15,7 @@ namespace EmployeeWage
         {
             int empHrs = 0, totalEmpHrs = 0, totalWorkingDays = 0;
 
-            while (totalEmpHrs <= maxHoursPerMotnth && totalWorkingDays < numOfWorkingDays,)
+            while (totalEmpHrs <= maxHoursPerMotnth && totalWorkingDays < numOfWorkingDays)
             {
                 totalWorkingDays++;
                 Random random = new Random();
