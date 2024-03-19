@@ -11,7 +11,7 @@ namespace EmployeeWage
         public const int IS_PART_TIME = 1;
         public const int IS_FULL_TIME = 2;
         public const int EMP_RATE_PER_HOUR = 20;
-        public const int NUM_OF_WORKING_DAYS = 2;
+        public const int NUM_OF_WORKING_DAYS = 20;
         static void Main(string[] args)
         {
             int empHrs = 0, empWage = 0, totalEmpWage = 0;
