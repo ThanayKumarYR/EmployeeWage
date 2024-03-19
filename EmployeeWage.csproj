@@ -33,7 +33,8 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>EmployeeWage.CalculatingEmployeeWage</StartupObject>
+    <StartupObject>
+    </StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -48,7 +49,8 @@
   <ItemGroup>
     <Compile Include="AddPartTimeEmployeeWage.cs" />
     <Compile Include="CalculatingEmployeeWage.cs" />
-    <Compile Include="CalEmpWageUseSwitchCase.cs" />
+    <Compile Include="CalEmpWageUseSwitch.cs" />
+    <Compile Include="CalWageForMonth.cs" />
     <Compile Include="EmployeePresence.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
